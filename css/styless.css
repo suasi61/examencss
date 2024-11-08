@@ -1,9 +1,16 @@
 body{
     font-size: 15px;
     font-family: Roboto;
+    align-items: center;
 }
 
-
+.as{
+    text-align: center;
+    align-items: center;
+    border-radius: 1px;
+    border: rgb(0, 0, 0.6);
+    color: white;
+}
 nav{
     text-align: center;
     background-color:#03045E ;
@@ -16,19 +23,16 @@ nav{
     margin: 10 15px;
 }
 
-h1,
-p,
-a{
-    z-index: 2;
-}
-
 .conteiner{
-    width: 100%;
+    width: 80%;
     text-align: center;
     padding: 20px;
+    margin: 0 auto;
+    border-radius: 100px;
+    border: #c55c09;
 }
 
-.navegador{
+nav{
     display: flex;
     padding: 10px;
     justify-content: space-around;
@@ -64,7 +68,7 @@ main a{
 }
 
 .imagencss{
-    width: 90vh;
+    width: 100vh;
     max-height: 2000px;
 }
 
@@ -76,6 +80,13 @@ footer{
 header{
     height: 25%;
     width: 90vh;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0, 0,0.6)
 }
 
 body{
@@ -83,7 +94,7 @@ body{
 }
 
 
-nav galeria{
+nav-bar{
     text-align: center;
     background-color:#03045E ;
     display: flex;
@@ -139,7 +150,8 @@ body .galeria{
     font-family: roboto;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: row;
     flex-direction: column;
     align-items: center;
 }
+
