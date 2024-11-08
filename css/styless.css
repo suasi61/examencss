@@ -22,25 +22,22 @@ a{
     z-index: 2;
 }
 
-header .conteiner{
+.conteiner{
     width: 100%;
     text-align: center;
     padding: 20px;
 }
 
-nav{
-    color: aqua;
-    font-weight: bold;
-    margin: 0 15px;
-    width: 100%;
-    font-size: 1.2rem;
-    padding: 3px;
-    border-radius: 8px;
-    border: black;
-    text-align: center;
+.navegador{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: chartreuse;
 }
 
-nav:hover{
+
+.navegador:hover{
     background-color: #c55c09;
 }
 
@@ -103,7 +100,9 @@ nav galeria{
 }
 
 
-.contenedor{
+
+
+.contenedor-reservas{
     max-width: 200px;
     text-align: center;
     padding: 20px;
@@ -113,8 +112,34 @@ nav galeria{
     align-items: center;
 }
 
-.contenedor form{
+.contenedor-reservas form{
     box-shadow: rgb(0, 0, 0.6);
     border: black;
     text-align: center;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px rgba (0,0,0,0.3);
+}
+
+body .galeria{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
