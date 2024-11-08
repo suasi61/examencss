@@ -1,0 +1,25 @@
+body{
+    font-size: 15px;
+}
+
+
+nav{
+    text-align: center;
+    background-color:#03045E ;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    gap: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    text-align: center;
+}
