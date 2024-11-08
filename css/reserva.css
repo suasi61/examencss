@@ -18,3 +18,16 @@ nav{
     margin: 0;
     padding: 0;
 }
+
+
+.contenedor{
+    max-width: 200px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    background-color: blue;
+    border-radius: 9px;
+    display: inline-block;
+    box-shadow: rgb(0, 0, 0.6);
+    border: black;
+}

@@ -1,17 +1,36 @@
 body{
     font-size: 15px;
+    font-family: Roboto;
 }
 
 
-nav{
+.barranavegacion{
     text-align: center;
     background-color:#03045E ;
-    display: flex;
+    display: inline-block;
     width: 100%;
     justify-content: center;
     align-items: center;
-    min-height: 50px;
-    gap: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10 15px;
+}
+
+header .conteiner{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+header .imagen{
+    width: 90vh;
+}
+
+.barranavegacion a{
+    color: aqua;
+    font-weight: bold;
+    margin: 0 15;
+    text-decoration: none;
 }
 
 *{
@@ -22,4 +41,21 @@ nav{
 
 main{
     text-align: center;
+    border: solid 5px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+main a{
+    color: white;
+    text-decoration: none;
+    background-color: #03045E;
+    border-radius: 10px;
+}
+
+.imagen{
+    width: 90vh;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
 }
